@@ -15,18 +15,11 @@
         </categories>
 
         <sets>
-            <set id="nevrolog">
-                <name>Терапевт</name>
-                <url>https://zabotaclinic.com/nevrologia</url>
-            </set>
             <set id="kardiolog">
-                <name>Хирург</name>
+                <name>Кардиолог</name>
                 <url>https://zabotaclinic.com/cardiology</url>
             </set>
-			<set id="uzist">
-                <name>Терапевт</name>
-                <url>https://zabotaclinic.com/uzidiagnostics</url>
-            </set>
+			
         </sets>
         <offers>
             <!--
@@ -39,7 +32,7 @@
             <offer id="vrach111" group_id="94726"> 
                 <name>Нурбаев Тимур Аликович</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
-                <url>https://static.tildacdn.com/tild3964-3039-4132-a437-366239316339/1x1.jpg</url><!--URL карточки врача. -->
+                <url>https://zabotaclinic.com/cardiology</url><!--URL карточки врача. -->
                 <price from="true">1800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
