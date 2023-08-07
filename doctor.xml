@@ -32,7 +32,7 @@
             <offer id="vrach111" group_id="94726"> 
                 <name>Нурбаев Тимур Аликович</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
-                <url>https://zabotaclinic.com/cardiology</url><!--URL карточки врача. -->
+                <url>https://zabotaclinic.com/timur_alikovich</url><!--URL карточки врача. -->
                 <price from="true">1800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
@@ -52,7 +52,7 @@
                 <param name="Город">г. Ташкент</param>
                 <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
                 <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
-                <param name="Ссылка на профиль врача">https://zabotaclinic.com/cardiology</param>
+                <param name="Ссылка на профиль врача">https://zabotaclinic.com/timur_alikovich</param>
                 <param name="Город клиники">г. Санкт-Петербург</param>
                 <param name="Адрес клиники">ул. Бухарестская, д.67, к. 1</param>
                 <param name="Название клиники">Клиника «Забота»</param>
