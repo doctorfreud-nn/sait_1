@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <yml_catalog date="2021-07-17 12:10">
     <shop>
-        <name>Врачи</name>
+        <name>Клиника «Забота»</name>
         <company>ООО «Клиника «Забота»</company>
         <url>https://zabotaclinic.com</url>
         <email>mc_zabota@mail.ru</email>
@@ -18,6 +18,18 @@
             <set id="kardiolog">
                 <name>Кардиолог</name>
                 <url>https://zabotaclinic.com/cardiology</url>
+            </set>
+			<set id="nevrolog">
+                <name>Невролог</name>
+                <url>https://zabotaclinic.com/nevrologia</url>
+            </set>
+			<set id="terapevt">
+                <name>Терапевт</name>
+                <url>https://zabotaclinic.com/therapy</url>
+            </set>
+			<set id="gastroenterolog">
+                <name>Гастроэнтеролог</name>
+                <url>https://zabotaclinic.com/gastroenterologiya</url>
             </set>
 			
         </sets>
@@ -59,6 +71,65 @@
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
                 <param name="Телефон для записи">+7(812)402-41-41</param> <!--Можно подменник аггрегатора-->
             </offer>
+			<offer id="vrach112" group_id="94722"> 
+                <name>Чернов Андрей Константинович</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://zabotaclinic.com/chernov_andrei</url><!--URL карточки врача. -->
+                <price from="true">1800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>nevrolog</set-ids> <!--специальности через запятую-->
+                <picture>https://static.tildacdn.com/tild3763-3735-4739-b137-303365386139/image.png</picture>
+                <description>Основные направления деятельности: * неврология * терапия В своей работе Андрей Константинович основывается на современных принципах доказательной медицины, является членом Всероссийского общества неврологов (Общество специалистов по нервно-мышечным болезням).Ведёт приём пациентов с 18 лет.
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Чернов</param>
+                <param name="Имя">Андрей</param>
+                <param name="Отчество">Константинович</param>
+                <param name="Годы опыта">6</param>
+                <param name="Начало карьеры">2017-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Санкт-Петербург</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://zabotaclinic.com/chernov_andrei</param>
+                <param name="Город клиники">г. Санкт-Петербург</param>
+                <param name="Адрес клиники">ул. Бухарестская, д.67, к. 1</param>
+                <param name="Название клиники">Клиника «Забота»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(812)402-41-41</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="vrach113" group_id="94723"> 
+                <name>Тудупов Вадим Андреевич</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://zabotaclinic.com/tudupov_vadim</url><!--URL карточки врача. -->
+                <price from="true">1500</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>1500</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>terapevt,gastroenterolog,kardiolog</set-ids> <!--специальности через запятую-->
+                <picture>https://thumb.tildacdn.com/tild6462-3035-4566-a134-383063663633/-/resize/920x/-/format/webp/image.png</picture>
+                <description>Ведет прием пациентов с 18 лет. В своей работе Вадим Андреевич основывается на современных принципах доказательной медицины, последних рекомендациях профильных российских и европейских сообществ, стандартах оказания медицинской помощи. Регулярно посещает научные конференции, симпозиумы, участвует в круглых столах и школах здоровья Фрунзенского и Московского районов Санкт-Петербурга.
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Тудупов</param>
+                <param name="Имя">Вадим</param>
+                <param name="Отчество">Андреевич</param>
+                <param name="Годы опыта">4</param>
+                <param name="Начало карьеры">2018-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Санкт-Петербург</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://zabotaclinic.com/chernov_andrei</param>
+                <param name="Город клиники">г. Санкт-Петербург</param>
+                <param name="Адрес клиники">ул. Бухарестская, д.67, к. 1</param>
+                <param name="Название клиники">Клиника «Забота»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(812)402-41-41</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			
         </offers>
     </shop>
 </yml_catalog>
