@@ -122,7 +122,7 @@
                 <param name="Город">г. Санкт-Петербург</param>
                 <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
                 <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
-                <param name="Ссылка на профиль врача">https://zabotaclinic.com/chernov_andrei</param>
+                <param name="Ссылка на профиль врача">https://zabotaclinic.com/tudupov_vadim</param>
                 <param name="Город клиники">г. Санкт-Петербург</param>
                 <param name="Адрес клиники">ул. Бухарестская, д.67, к. 1</param>
                 <param name="Название клиники">Клиника «Забота»</param>
