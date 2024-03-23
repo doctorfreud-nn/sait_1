@@ -16,7 +16,7 @@
 
         <sets>
             <set id="psychiatr">
-                <name>Психиатр</name>
+                <name>Врач-психиатр</name>
                 <url>https://doctorfreud.ru/psikhiatriya</url>
             </set>
        </sets>
@@ -36,7 +36,7 @@
                 <oldprice>4000</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>psychiatr, psiсhaterapevt</set-ids> <!--специальности через запятую-->
+                <set-ids>psychiatr</set-ids> <!--специальности через запятую-->
                 <picture>https://static.tildacdn.com/tild6333-6666-4266-b335-363164616566/rastorgueva-nadezhda.jpg</picture>
                 <description>Направления работы:
 *диагностика и амбулаторное лечение депрессии, тревожных (паническое тревожное расстройство, генерализованное тревожное расстройство, обсессивно-компульсивное тревожное расстройство и др.), психосоматических, соматоформных расстройств, биполярного аффективного расстройства, шизофрении с возможностью долгосрочного ведения пациента
