@@ -15,9 +15,9 @@
         </categories>
 
         <sets>
-            <set id="psychiatr">
+            <set id="psihiatr">
                 <name>Врач-психиатр</name>
-                <url>https://doctorfreud.ru/psikhiatriya</url>
+                <url>https://doctorfreud.ru/psihiatricheskaya-pomoshch</url>
             </set>
        </sets>
 	   <offers>
