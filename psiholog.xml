@@ -1,7 +1,7 @@
-<yml_catalog date="2024-05-29 20:06">
+<yml_catalog date="2024-05-29 20:26">
 <shop>
-<name>ООО «Доктор Фрейд»</name>
-<company>ООО «Доктор Фрейд»</company>
+<name>ООО Доктор Фрейд</name>
+<company>ООО Доктор Фрейд</company>
 <url>https://doctorfreud.ru/</url>
 <email>d.freud-nn@yandex.ru</email>
 <picture>https://static.tildacdn.com/tild3234-3637-4031-b132-303536376537/_.png</picture>
@@ -20,6 +20,10 @@
 <set id="set_2">
 <name>Семейный психолог в Нижнем Новгороде</name>
 <url>https://doctorfreud.ru/semejnoe-konsultirovanie</url>
+</set>
+<set id="set_3">
+<name>Детский психолог</name>
+<url>https://doctorfreud.ru/detskij-psiholog</url>
 </set>
 </sets>
 <offers>
@@ -42,6 +46,20 @@
 <param name="Ссылка на профиль исполнителя">https://doctorfreud.ru/gromova</param>
 <param name="Организация">true</param>
 <param name="Выполняется по адресу исполнителя">true</param>
+</offer>
+<offer id="offer23435">
+<set-ids>set_3</set-ids>
+<name>Бузынина Анастасия Николаевна</name>
+<url>https://doctorfreud.ru/detskij-psiholog</url>
+<currencyId>RUB</currencyId>
+<price>4000</price>
+<categoryId>1</categoryId>
+<description>Консультирование родителей, диагностика ребенка</description>
+<picture>https://static.tildacdn.com/tild3661-3365-4333-b935-376332643932/buzynina-anastasiya-.png</picture>
+<param name="Число отзывов">0</param>
+<param name="Годы опыта">15</param>
+<param name="Регион">Нижний Новгород</param>
+<param name="Конверсия">1,95</param>
 </offer>
 </offers>
 </shop>
