@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <yml_catalog date="2018-07-17 12:10">
   <shop>
-    <name>ООО "Доктор Фрейд"</name>
-    <company>ООО "Доктор Фрейд"</company>
-    <url>https://doctorfreud.ru</url>
-    <email>d.freud-nn@yandex.ru</email>
+    <name>Работает</name>
+<company>ООО «Доктор Фрейд»</company>
+<url>https://doctorfreud.ru</url>
+<email>d.freud-nn@yandex.ru</email>
     <currencies>
       <currency id="RUR" rate="1" />
     </currencies>
     <categories>
       <category id="1">Психолог</category>
-      <category id="2" parentId="1">Семейный психолог</category>
-      <category id="3" parentId="2">Клинический психолог</category>
-      <category id="4" parentId="3">КПТ-терапевт</category>
       </categories>
     <!--Добавили sets по сравнению с обычным YML-->
     <sets>
@@ -49,11 +46,11 @@
 болезнь, утрата дееспособности одного из членов семьи,
 в семье - зависимый,
 смерть одного из членов семьи.</description>
-        <adult>false</adult>
+        <adult>true</adult>
         <expiry></expiry>
         <!--Этот набор параметров обязателен-->
         <param name="Рейтинг">0</param>
-        <param name="Число отзывов"></param>
+        <param name="Число отзывов">0</param>
         <param name="Годы опыта">8</param>
         <param name="Регион">Нижний Новгород</param>
         <param name="Конверсия">1.935</param><!--Это произвольное число, оно не обязано быть от 0 до 1-->
@@ -62,7 +59,7 @@
         <param name="Выезд на дом">Нет</param>
         <param name="Работа по адресу">г. Нижний Новгород, ул. Ульянова, д. 44</param>
           </offer>
-    offer id="923950riseruriv"><!--Другое предложение от того же исполнителя-->
+    offer id="2"><!--Другое предложение от того же исполнителя-->
         <name>Громова Наталия Николаевна</name>
         <url>https://doctorfreud.ru/gromova</url>
         <price from="true">4000</price>
@@ -89,10 +86,10 @@
         <!--Этот набор параметров обязателен-->
         <!--Этот набор параметров обязателен-->
         <param name="Рейтинг">0</param>
-        <param name="Число отзывов"></param>
+        <param name="Число отзывов">0</param>
         <param name="Годы опыта">8</param>
         <param name="Регион">Нижний Новгород</param>
-        <param name="Конверсия">1.935</param><!--Это произвольное число, оно не обязано быть от 0 до 1-->
+        <param name="Конверсия">1</param><!--Это произвольное число, оно не обязано быть от 0 до 1-->
         <!--Этот набор параметров необязателен-->
         <param name="Ссылка на телефон">tel: +78312672050</param>
         <param name="Выезд на дом">Нет</param>
