@@ -39,10 +39,10 @@
 <param name="Рейтинг">5.0</param>
 <param name="Число отзывов">0</param>
 <param name="Годы опыта">8</param>
-<param name="Регион">Нижегородская область</param>
+<param name="Регион">Нижний Новгородь</param>
 <param name="Конверсия">1.95</param>
 <adult>true</adult>
-<param name="Ссылка на телефон">tel: +78312672050</param>
+
 <param name="Ссылка на профиль исполнителя">https://doctorfreud.ru/gromova</param>
 <param name="Организация">true</param>
 <param name="Выполняется по адресу исполнителя">true</param>
@@ -56,10 +56,11 @@
 <categoryId>1</categoryId>
 <description>Консультирование родителей, диагностика ребенка</description>
 <picture>https://static.tildacdn.com/tild3661-3365-4333-b935-376332643932/buzynina-anastasiya-.png</picture>
+  <param name="Рейтинг">5.0</param>
 <param name="Число отзывов">0</param>
 <param name="Годы опыта">15</param>
 <param name="Регион">Нижний Новгород</param>
-<param name="Конверсия">1,95</param>
+<param name="Конверсия">1.95</param>
 </offer>
 </offers>
 </shop>
