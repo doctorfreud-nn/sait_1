@@ -4,13 +4,11 @@
 <company>ООО Доктор Фрейд</company>
 <url>https://doctorfreud.ru/</url>
 <email>d.freud-nn@yandex.ru</email>
-<picture>https://static.tildacdn.com/tild3234-3637-4031-b132-303536376537/_.png</picture>
 <currencies>
 <currency id="RUR" rate="1"/>
 </currencies>
 <categories>
 <category id="1">Исполнитель</category>
-<category id="29" parentId="1">Разное</category>
 </categories>
 <sets>
 <set id="set_1">
@@ -33,10 +31,10 @@
 <url>https://doctorfreud.ru/gromova</url>
 <currencyId>RUB</currencyId>
 <price from="true">4000</price>
-<categoryId>29</categoryId>
+<categoryId>1</categoryId>
 <description>Направления работы: тревожные расстройства депрессивные состояния вопросы самооценки экзистенциальные кризисы семейные кризисы ситуация развода ссоры и конфликты в семье вопросы детско-родительских взаимоотношений измена партнера ситуации утраты (партнера, отношений, работы, имущества и пр.)</description>
 <picture>https://static.tildacdn.com/tild3231-3762-4233-b533-346439626236/gromova-nataliya-sem.jpg</picture>
-<param name="Рейтинг">5.0</param>
+<param name="Рейтинг">0</param>
 <param name="Число отзывов">0</param>
 <param name="Годы опыта">8</param>
 <param name="Регион">Нижний Новгородь</param>
@@ -61,6 +59,9 @@
 <param name="Годы опыта">15</param>
 <param name="Регион">Нижний Новгород</param>
 <param name="Конверсия">1.95</param>
+  <param name="Ссылка на профиль исполнителя">https://doctorfreud.ru/buzynina</param>
+<param name="Организация">true</param>
+<param name="Выполняется по адресу исполнителя">true</param>
 </offer>
 </offers>
 </shop>
